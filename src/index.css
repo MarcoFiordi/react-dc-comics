@@ -1,12 +1,25 @@
 .blue-section {
     background-color: blue;
 }
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+}
 
 .black-section {
     color: white;
     background-color: rgb(28, 28, 28);
     height: 80px;
     font-weight: bold;
+    
 }
 
 .blue-section{
@@ -23,5 +36,5 @@
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
-    
+
 }
