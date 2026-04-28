@@ -18,3 +18,10 @@
     list-style: none;
     gap: 20px;
 }
+
+.social-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    
+}
