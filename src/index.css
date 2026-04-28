@@ -13,3 +13,8 @@
     display: flex;
     color: white;
 }
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
