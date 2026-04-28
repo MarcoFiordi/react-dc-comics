@@ -13,7 +13,7 @@ function Header() {
             <li className="list-item"><a href="" className="nav-item"></a>NEWS</li>
             <li className="list-item"><a href="" className="nav-item"></a>SHOP</li>
         </ul>
-        ;</div>
+        </div>
 
 }
 export default Header;

@@ -1,0 +1,15 @@
+.blue-section {
+    background-color: blue;
+}
+
+.black-section {
+    color: white;
+    background-color: rgb(28, 28, 28);
+    height: 80px;
+    font-weight: bold;
+}
+
+.blue-section{
+    display: flex;
+    color: white;
+}
