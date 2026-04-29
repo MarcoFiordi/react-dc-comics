@@ -1,15 +1,19 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
+
 .blue-section {
     background-color: blue;
 }
+
 .container {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    padding: 20px;
 }
+
 .nav-list {
     display: flex;
     justify-content: center;
@@ -22,13 +26,14 @@ body {
     background-color: rgb(28, 28, 28);
     height: 80px;
     font-weight: bold;
-    
+
 }
 
-.blue-section{
+.blue-section {
     display: flex;
     color: white;
 }
+
 .footer-links {
     display: flex;
     list-style: none;
@@ -41,10 +46,11 @@ body {
     margin-top: 25px;
 
 }
+
 .footer-container {
     min-height: 350px;
 
-    background-image: 
+    background-image:
         url('/dc-comics-1/img/dc-logo-bg.png'),
         url('/dc-comics-1/img/footer-bg.jpg');
     background-repeat: no-repeat, no-repeat;
@@ -53,18 +59,60 @@ body {
     display: flex;
     align-items: center;
 }
+
 .background-main {
     background-image: url('/dc-comics-1/img/jumbotron.jpg');
     height: 450px;
+    background-color: black;
 }
 
+.cards-container {
+    margin: 0 auto;
+    background-color: black;
+    padding: 50px;
 
+}
+
+.wrapper {
     
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.comic-card {
+    width: calc((100% - 150px) / 6);
+
+}
+
+.comic-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.comic-card h3 {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+
+}
+
 
 .footer-column h3 {
     color: white;
 
 }
+
 .footer-column li {
     color: white;
     opacity: 50%;

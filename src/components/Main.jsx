@@ -9,7 +9,7 @@ function Main() {
                 <div className="cards">
                     {comics.map(function (comic) {
                         return (
-                            <div key={comic.id}>
+                            <div key={comic.id} className="comic-card">
                                 <img src={comic.thumb} alt={comic.title} />
                                 <h3>{comic.title}</h3>
                             </div>
