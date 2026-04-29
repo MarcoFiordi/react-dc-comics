@@ -1,3 +1,6 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 .blue-section {
     background-color: blue;
 }
@@ -37,4 +40,32 @@
     justify-content: space-around;
     margin-top: 25px;
 
+}
+.footer-container {
+    min-height: 350px;
+
+    background-image: 
+        url('/dc-comics-1/img/dc-logo-bg.png'),
+        url('/dc-comics-1/img/footer-bg.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 80% center, center;
+    background-size: 500px, cover;
+    display: flex;
+    align-items: center;
+}
+.background-main {
+    background-image: url('/dc-comics-1/img/jumbotron.jpg');
+    height: 450px;
+}
+
+
+    
+
+.footer-column h3 {
+    color: white;
+
+}
+.footer-column li {
+    color: white;
+    opacity: 50%;
 }

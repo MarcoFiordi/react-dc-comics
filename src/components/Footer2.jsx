@@ -1,9 +1,9 @@
 function Footer2(){
-    return <div class="social-container">
-        <div class="container-button">
+    return <div className="social-container">
+        <div className="container-button">
             <button>SIGN-UP NOW</button>
         </div>
-        <div class="social">
+        <div className="social">
             <span>FOLLOW US</span>
             <img src="/dc-comics-1/img/footer-facebook.png" alt="logo facebook" />
             <img src="/dc-comics-1/img/footer-twitter.png" alt="logo twitter" />

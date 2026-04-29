@@ -1,7 +1,7 @@
 function Header() {
-    return <div class="container">
+    return <div className="container">
         <img src="/dc-comics-1/img/dc-logo.png" alt="logo-blu-dc" />
-        <ul class="nav-list">
+        <ul className="nav-list">
             <li className="list-item"><a href="" className="nav-item"></a>CHARACTERS</li>
             <li className="list-item"><a href="" className="nav-item"></a>COMICS</li>
             <li className="list-item"><a href="" className="nav-item"></a>MOVIES</li>

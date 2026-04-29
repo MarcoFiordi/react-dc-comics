@@ -1,5 +1,5 @@
 function Main2(){
-    return <div class="blue-section">
+    return <div className="blue-section">
         <div className="comic-item">
             <img src="/dc-comics-1/img/buy-comics-digital-comics.png" alt="acquista digital comics" />
             <span>DIGITAL COMICS</span>
